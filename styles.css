@@ -1,0 +1,204 @@
+.introduction{
+    text-align: center;
+     background-color:palevioletred;
+    text-decoration: none;
+    color:black;
+    font-size: large;
+
+
+}
+.app{
+    text-decoration: none;
+    color: blue;
+}
+.nav{
+    
+    background-color: rgb(234, 243, 243);
+    display: flex;
+
+}
+.nav3{
+    display:inline-block;
+}
+.nav3 ul li{
+    text-decoration: none;
+    color: grey;
+    font-size: medium;
+    list-style: none;
+}
+.nav2{
+    text-decoration: none;
+    color: brown;
+}
+.fix{
+    text-decoration: none;
+    color: brown;
+}
+.go{
+text-decoration: none;
+color: black;
+}
+.logo{
+    margin-bottom: 5%;
+    padding: 0% 3%;
+    height: 80%;
+    width: 60%;
+
+
+
+}
+.white{
+    display: block;
+    background-color: rgb(234, 0, 255);
+    text-align: center;
+}
+.better{
+    background-color:palegoldenrod;
+    display: flex;
+    width: 100%;
+}
+.best1{
+margin-bottom: 10%;
+padding: 0% 3%;
+height: 30%;
+width:50%;
+
+
+}
+.best2{
+
+    margin-bottom:3%;
+    padding: 0% 3%;
+    height: 30%;
+    width:40%;
+    position: relative;
+    bottom: 20px;
+    
+
+
+}
+.best3{
+
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 30%;
+    width:20%;
+    
+}
+.better{
+  display: flex;   
+
+}
+.sh1{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 30%;
+    width:20%;
+    
+}
+.sh2{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 10%;
+    width:20%;
+    
+}
+.sh3{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 10%;
+    width:20%;
+    
+}
+.sh4{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 10%;
+    width:20%;
+    
+}
+.sh5{
+    margin-bottom: 3%;
+    height: 20%;
+    width:40%;
+
+}
+.sh6{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 20%;
+    width:40%;
+}
+.sh7{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 30%;
+    width:20%;
+    
+}
+.sh8{
+    margin-bottom: 3%;
+    padding: 0% 3%;
+    height: 30%;
+    width:10%;
+    
+    
+}
+.div2{
+    display: flex;
+
+}
+.div2 ul li{
+    list-style: none;
+    color: grey;
+    display: flex;
+    
+}
+.men{
+    text-decoration: none;
+    color: brown;
+}
+.users{
+    display: flex;
+    
+}
+.user{
+    display: flex;
+    
+}
+.general{
+    display:inline-flex;
+
+    
+
+}
+.g2{
+    display: flex;
+}
+.pink{
+    background-color: plum;
+    
+}
+.end{
+    display: flex;
+    background-color: rgb(238, 201, 213);
+
+}
+.end ul li{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.bf{
+margin: left 30px;
+background-color:skyblue;
+text-decoration: none;
+color: black;
+}
+.bbf{
+    margin: left 30px;
+    background-color:skyblue;
+    text-decoration: none;
+    color: black;
+}
