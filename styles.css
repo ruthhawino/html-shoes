@@ -1,6 +1,6 @@
 .introduction{
     text-align: center;
-     background-color:palevioletred;
+     background-color:white;
     text-decoration: none;
     color:black;
     font-size: large;
@@ -11,11 +11,24 @@
     text-decoration: none;
     color: blue;
 }
+
+.play{
+    border-radius: 78%;
+    background-color: orangered;
+    color: white;
+    height: 15%;
+    width: 20%;
+}
 .nav{
     
-    background-color: rgb(234, 243, 243);
-    display: flex;
+    background-color: white;
+    display: inline-block;
 
+}
+.nav ul li{
+    display: inline-block;
+    text-decoration: solid;
+    color: black;
 }
 .nav3{
     display:inline-block;
@@ -27,136 +40,239 @@
     list-style: none;
 }
 .nav2{
-    text-decoration: none;
-    color: brown;
+    color:orangered;
 }
 .fix{
     text-decoration: none;
-    color: brown;
+    color: orangered;
 }
 .go{
-text-decoration: none;
+text-decoration: solid;
 color: black;
+font-size: xx-large;
+
 }
 .logo{
-    margin-bottom: 5%;
-    padding: 0% 3%;
-    height: 80%;
-    width: 60%;
+    margin-left: 3%;
+    padding: 0% 30%;
+    height: 50%;
+    width: 70%; 
+    border-radius: 50%; 
+    margin-top: 20%; 
+    transform: rotate(-15deg);
+    
+}
+.go2{
+    display: flex;
+    background-image: url(/bg_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.solv{
+    background-color:orangered;
+    border-radius: 5%;
+    padding: 5%;
+
+}
 
 
-
+.china{
+    font-size: medium;
 }
 .white{
-    display: block;
-    background-color: rgb(234, 0, 255);
-    text-align: center;
+    display: flex;
+    gap: 15%; 
+    background-color: rgb(232, 243, 239);  
+}
+.speech{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}
+.insights{
+    font-size:larger;
+    text-decoration: solid;
+    font: bolder;
 }
 .better{
-    background-color:palegoldenrod;
     display: flex;
     width: 100%;
 }
 .best1{
-margin-bottom: 10%;
+margin-bottom: 3%;
 padding: 0% 3%;
-height: 30%;
-width:50%;
+height: 90%;
+width:90%;
 
 
 }
+.s{
+    height: 1%;
+    width: 2%;
+}
+.sea{
+    padding: 2%;
+}
+.colect{
+    text-align: center;
+    background-color: white;
+     
+}
+
 .best2{
 
     margin-bottom:3%;
     padding: 0% 3%;
-    height: 30%;
-    width:40%;
-    position: relative;
-    bottom: 20px;
-    
+    height: 90%;
+    width:90%;
+  
 
-
+}
+.general2{
+    border: solid;
+    color:white;
 }
 .best3{
 
     margin-bottom: 3%;
     padding: 0% 3%;
-    height: 30%;
-    width:20%;
+    height: 90%;
+    width:90%;
+
+       
+}
+.di1{
+    display: flex; 
+    border:solid;
+    color:grey;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    
+}
+
+.d2{
+    display: flex; 
+    border: solid;
+    color:grey;
+    border-radius: 5%;
+    background-color: whitesmoke;
+
+}
+.d3{
+     display: flex;
+     border: solid;
+    color:grey;
+    border-radius: 5%;
+    background-color:whitesmoke;
     
 }
 .better{
-  display: flex;   
-
+  display: flex; 
+  gap: 10%;
+  
+ 
+}
+.v1{
+background-color:orangered;
+height: 15%;
+border-radius: 5%;
+border-color:orangered;
+}
+.v2{
+    background-color:orangered;
+    height: 15%;
+    border-radius: 5%;
+}
+.v3{
+    background-color:orangered;
+    height: 15%;
+    border-radius: 5%;
+   
 }
 .sh1{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     padding: 0% 3%;
-    height: 30%;
-    width:20%;
+    height: 50%;
+    width:90%;
+    margin-top: 3%;
+
     
 }
 .sh2{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     padding: 0% 3%;
-    height: 10%;
-    width:20%;
+    height: 40%;
+    width:90%;
+    margin-top: 3%;
+    
     
 }
 .sh3{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     padding: 0% 3%;
-    height: 10%;
-    width:20%;
+    height: 50%;
+    width:90%;
+    margin-top: 3%;
+    
     
 }
 .sh4{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     padding: 0% 3%;
-    height: 10%;
-    width:20%;
+    height: 40%;
+    width:90%;
+    margin-top: 3%;
+    
     
 }
 .sh5{
     margin-bottom: 3%;
-    height: 20%;
-    width:40%;
+    height: 40%;
+    width:100%;
+    
 
 }
 .sh6{
     margin-bottom: 3%;
     padding: 0% 3%;
-    height: 20%;
-    width:40%;
+    height: 50%;
+    width:100%;
+
+
 }
 .sh7{
     margin-bottom: 3%;
     padding: 0% 3%;
-    height: 30%;
-    width:20%;
+    height: 40%;
+    width:60%
     
 }
 .sh8{
     margin-bottom: 3%;
     padding: 0% 3%;
-    height: 30%;
-    width:10%;
+    height: 40%;
+    width:90%;
+    
     
     
 }
 .div2{
-    display: flex;
+    display:inline-block;
+    padding: 5%;
 
 }
 .div2 ul li{
     list-style: none;
-    color: grey;
-    display: flex;
+    display: inline-block;
+    
+    
+    
     
 }
 .men{
     text-decoration: none;
-    color: brown;
+    color: orangered;
 }
 .users{
     display: flex;
@@ -167,13 +283,21 @@ width:50%;
     
 }
 .general{
-    display:inline-flex;
+    display:flex;
+    border: none;
+    color: black;  
+    gap: 10%;
+    margin-top: 3%;
+
 
     
 
 }
 .g2{
     display: flex;
+    border: none;
+    color: black;
+    gap: 5%;
 }
 .pink{
     background-color: plum;
@@ -181,7 +305,9 @@ width:50%;
 }
 .end{
     display: flex;
-    background-color: rgb(238, 201, 213);
+    background-color:rgb(255, 0, 76);
+    padding: 5%;
+
 
 }
 .end ul li{
@@ -190,15 +316,353 @@ width:50%;
     text-decoration: none;
     color: white;
 }
+.apple{
+    width: 10%;
+    height: 5%;
+}
 .bf{
-margin: left 30px;
-background-color:skyblue;
-text-decoration: none;
-color: black;
+    padding: 2%;
+    background-color: orangered;
+    margin-bottom: 10%;
+    border-radius: 5%;
 }
 .bbf{
-    margin: left 30px;
-    background-color:skyblue;
+    padding: 2%;
+    background-color:white;
+    border-radius: 5%;  
+}
+.arrive1{
+    margin-bottom: 10%;
+    padding: 0% 3%;
+    height: 50%;
+    width: 90%;
+
+}
+.arrive2{
+    margin-bottom: 10%;
+    padding: 0% 3%;
+    height: 50%;
+    width: 90%  
+}
+.jum{
+    display: flex;
+     
+}
+.jum1{
+    display: flex;
     text-decoration: none;
     color: black;
+    
 }
+.jum2{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+.p1{
+    color: orangered;
+}
+.p2{
+    color: orangered;
+}
+.h{
+    color: orangered;   
+}
+.hh{
+    color: orangered;
+}
+.sea{
+background-color:white;
+border-radius: 5%;
+border: solid;
+margin-left: 50%;
+text-decoration: none;
+color: orangered;
+border-color: orangered;
+
+
+}
+.new{
+text-align: center;
+}
+
+.b1{
+background-color: orangered;
+border-radius: 5%;
+padding: 4%;
+
+}
+.a1{
+    background-color: white;
+    border-radius: 5%;
+    border-color: orangered;
+    padding: 4%;
+    
+
+}
+.b2{
+    background-color:orangered;
+    border-radius: 5%;
+    padding: 4%;
+    
+}
+.a2{
+    background-color:white;
+    border-radius: 5%;
+    padding: 4%;
+    border-color:orangered;
+}
+.pro{
+    text-align: center;
+     
+}
+
+
+.model{
+
+    background-color: pink;
+    text-align: center;
+    display: block;
+}
+.sub{
+    background-color:plum;
+    height: 20%;
+    width: 30%;
+}
+.nad{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin-top: 20%;
+
+
+}
+.test{
+
+    text-decoration: none;
+    color: orangered;
+    font-size:medium;
+}
+.mony{
+    display: block;
+
+}
+.indi{
+    border: solid;
+    color: white;
+    border-color:white;
+    border-radius: 5%;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 17%;
+}
+.subscribe{
+    border: solid;
+    background-color:pink;
+    border-color:pink;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    border-radius: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.contact{
+display: block;
+text-align: left;
+}
+.more{
+    display: block;
+    text-align: left;
+}
+.company{
+    display: block;
+    text-align: left;
+}
+
+.discover{
+    display: block;
+    text-align: left;
+}
+
+.sole{
+    width: 90%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.main2{
+    /* background-image: url(/ground.webp); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 10%;
+}
+
+.one{
+    display: flex;
+    border: 100%;
+}
+
+
+
+
+.one ul li{
+    list-style: none;
+    margin: 1rem;
+    
+}
+.two{
+    display:flex;
+    
+}
+.two ul li{
+    list-style: none;
+    margin: 1rem;
+ 
+}
+.main3{
+    display: flex;
+    gap: 15%;
+}
+.main4{
+    display: block;
+}
+.black{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 3%;
+
+}
+.black1{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 3%;
+
+}
+.black2{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 3%;
+
+}
+.f{
+    background-color: rgb(165, 42, 73);
+}
+.blue{
+  border-radius: 50%;
+  background-color: brown;
+  width: 10%;
+  height: 5%;
+
+}
+.blacks{
+    margin-right: 1%;
+    position: relative;
+    left: -110%;
+    margin-top: 10%;
+    background-color:white;
+}
+.cart{
+    background-color: orangered;
+    border-color: brown;
+    text-decoration: none;
+    color: white;
+    padding: 3.5%;
+    border-radius: 5%;
+
+
+}
+.order{
+border-color: orangered;
+text-decoration: none;
+color: orangered;
+font-size: large;
+background-color: white;
+padding: 3.5%;
+border-radius: 5%;
+
+}
+.essay{
+    text-decoration: solid;
+    color: black;
+}
+
+.sz{
+    text-decoration: none;
+    color: brown;
+}
+.persent{
+    color: brown;
+}
+.min{
+    color: brown;
+}
+
+.five{
+    height:40%;
+    width:100%;
+    margin-top: 3%;
+}
+.six{
+    height: 30%;
+    width:90%;
+    margin-top: 3%;
+}
+.seven{
+    height: 40%;
+    width:90%;
+    margin-top: 3%;
+}
+.eight{
+    height: 40%;
+    width:100%;
+    margin-top: 3%;
+}
+.class{
+    display: flex;
+    gap:10%;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+.same{
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
