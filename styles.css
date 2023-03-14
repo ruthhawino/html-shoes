@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 
 .introduction{
     text-align: center;
@@ -699,15 +704,28 @@ border-radius: 5%;
 }
 
 .sun{
-    display: flex;
-    gap: 10%;
+    display:inline-flex;
+    gap:3%;
     margin-left:10%;
 }
 
 .maroon{
-width: 80%;
-height: 50%;
+width: 60%;
+height: 80%;
 background-color: grey;
+
+}
+.pp2{
+position: relative;
+left: -20%;
+}
+.pp3{
+    position: relative;
+    right: 3%;
+}
+.pp4{
+    position: relative;
+    right: 3%;
 }
 .t1{
 padding: 3%;
@@ -735,9 +753,18 @@ color: white;
     gap: 1%;
     margin-top: 2%;
     background-color: rgb(238, 250, 250);
-}
+} 
 
 
+     @media(max-width:400px) {
+
+    
+    }
+
+
+    
+
+   
 
 
 
