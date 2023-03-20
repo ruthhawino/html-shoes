@@ -1,6 +1,10 @@
-body{
+.body{
     overflow-x: hidden;
     overflow-y: scroll;
+    white-space: 1%;
+    width: 100%;
+    height: 10%;
+
 }
 
 
@@ -15,15 +19,15 @@ body{
 }
 .app{
     text-decoration: none;
-    color: blue;
+    
 }
 
 .play{
-    border-radius: 78%;
+    border-radius: 50%;
     background-color: orangered;
     color: white;
-    height: 15%;
-    width: 20%;
+    height: 13%;
+    width: 12%;
 }
 .nav{
     
@@ -57,20 +61,20 @@ text-decoration: solid;
 color: black;
 font-size: xx-large;
 
+
 }
 .logo{
-    margin-left: 3%;
+    margin-left: -40%;
     padding: 0% 30%;
     height: 50%;
     width: 70%; 
     border-radius: 50%; 
-    margin-top: 20%; 
-    transform: rotate(-15deg);
-    
+    margin-top: 30%; 
+    transform: rotate(-5deg);
 }
 .go2{
     display: flex;
-    background-image: url(/bg_720.png);
+    background-image: url(/images/bg_720.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
@@ -84,11 +88,13 @@ font-size: xx-large;
 
 
 .china{
-    font-size: medium;
+    
+    font-size: 30px;
+
 }
 .white{
     display: flex;
-    gap: 15%; 
+    gap: 10%; 
     background-color: rgb(232, 243, 239);  
 }
 .speech{
@@ -102,7 +108,7 @@ font-size: xx-large;
     font: bolder;
 }
 .better{
-    display: flex;
+    display: flex 10%;
     width: 100%;
 }
 .best1{
@@ -271,20 +277,16 @@ border-color:orangered;
 }
 .div2{
     display:inline-block;
-    padding: 5%;
-    gap: 10%;
+    padding: 2%;
+    gap:5%;
+
 
 }
 .div2 ul li{
     list-style: none;
-    display: inline-block;
     margin: 1rem;
-    font-size: larger;
-    text-decoration: solid;
-
-    
-    
-    
+    font: size 30px;
+    text-decoration: solid;   
     
 }
 .men{
@@ -303,9 +305,10 @@ border-color:orangered;
     display:flex;
     border: none;
     color: black;  
-    gap: 10%;
+    gap:2%;
     margin-top: 3%;
     background-color: rgb(238, 250, 250);
+    margin-left: 3%;
 
 
     
@@ -317,6 +320,7 @@ border-color:orangered;
     color: black;
     gap: 5%;
     margin-top: 2%;
+    margin-left: 3%;
     background-color: rgb(238, 250, 250);
 }
 .pink{
@@ -352,14 +356,14 @@ border-color:orangered;
     border-radius: 5%;  
 }
 .arrive1{
-    margin-bottom: 10%;
+    margin-bottom:2%;
     padding: 0% 3%;
     height: 50%;
     width: 90%;
 
 }
 .arrive2{
-    margin-bottom: 10%;
+    margin-bottom:2%;
     padding: 0% 3%;
     height: 50%;
     width: 90%  
@@ -457,7 +461,7 @@ padding: 4%;
     border-radius: 50%;
     height: 30%;
     width: 30%;
-    margin-top: 20%;
+    margin-top:2%;
 
 
 }
@@ -479,7 +483,7 @@ padding: 4%;
     background-color: white;
     text-decoration: none;
     color: black;
-    margin-bottom: 17%;
+    margin-bottom:3%;
 }
 .subscribe{
     border: solid;
@@ -489,13 +493,13 @@ padding: 4%;
     text-decoration: none;
     color: black;
     font-size: larger;
-    border-radius: 10%;
-    margin-bottom: 10%;
+    border-radius: 5%;
+    margin-top:2%;
+    margin-left:5%;
+    margin-bottom:2%;
     width: 80%;
     height: 20%;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+
 
 }
 .contact{
@@ -524,20 +528,17 @@ text-align: left;
 }
 
 .main2{
-     background-image: url(/vecteezy_abstract-red-and-white-background-mock-up_1269153.jpg);
+    
     background-repeat: no-repeat;
-    background-size: 35%;
+    background-size: 5%;
     background-color: rgb(238, 250, 250);
 
 }
 
 .one{
     display: flex;
-    border: 100%;
+
 }
-
-
-
 
 .one ul li{
     list-style: none;
@@ -562,7 +563,7 @@ text-align: left;
 }
 .main3{
     display: flex;
-    gap: 15%;
+    gap: 2%;
     background-color: rgb(238, 250, 250);
 }
 .main4{
@@ -602,8 +603,8 @@ text-align: left;
 .blacks{
     margin-right: 1%;
     position: relative;
-    left: -110%;
-    margin-top: 10%;
+    left: -75%;
+    margin-top:2%;
     background-color: rgb(238, 250, 250);
 }
 .cart{
@@ -611,7 +612,7 @@ text-align: left;
     border-color: brown;
     text-decoration: none;
     color: white;
-    padding: 3.5%;
+    padding: 2%;
     border-radius: 5%;
 
 
@@ -622,7 +623,7 @@ text-decoration: none;
 color: orangered;
 font-size: large;
 background-color: white;
-padding: 3.5%;
+padding:2%;
 border-radius: 5%;
 
 }
@@ -643,30 +644,30 @@ border-radius: 5%;
 }
 
 .five{
-    height:40%;
-    width:100%;
+    height:30%;
+    width:60%;
     margin-top: 3%;
 }
 .six{
     height: 30%;
-    width:90%;
+    width:60%;
     margin-top: 3%;
 }
 .seven{
-    height: 40%;
-    width:90%;
+    height: 30%;
+    width:60%;
     margin-top: 3%;
 }
 .eight{
-    height: 40%;
-    width:100%;
-    margin-top: 3%;
+    height: 30%;
+    width:60%;
+    margin-top:2%;
 }
 .class{
     display: flex;
-    gap:10%;
-    margin-top: 5%;
-    margin-left: 10%;
+    gap:2%;
+    margin-top: 2%;
+    margin-left:2%;
     background-color: rgb(238, 250, 250);
 
 }
@@ -674,13 +675,15 @@ border-radius: 5%;
     text-align: center;
     text-decoration: solid;
     color: black;
-    font-size: larger;
+    font-size: auto;
 }
 
 .remark{
     display: flex;
-    margin-left: 10%;
-    gap: 10%;
+    margin-left: 3%;
+    gap: 1%;
+    width: 80%;
+    height: 40%;
     
 
        
@@ -688,7 +691,7 @@ border-radius: 5%;
 .pp1{
     width: 80%;
     height: 70%;
-    margin-left: 10%;
+    margin-left:2%;
 
 }
 .ooo{
@@ -698,15 +701,19 @@ border-radius: 5%;
 }
 .re{
     display: flex;
-    margin-left: 10%;
+    margin-left:5%;
     gap: 5%;
-    margin-bottom: 10%;
+    margin-bottom:2%;
+    position: relative;
+    top: -100px;
 }
 
 .sun{
     display:inline-flex;
     gap:3%;
-    margin-left:10%;
+    margin-left:2%;
+    position: relative;
+    top: -100px;
 }
 
 .maroon{
@@ -726,42 +733,77 @@ left: -20%;
 .pp4{
     position: relative;
     right: 3%;
+    
 }
 .t1{
-padding: 3%;
+padding: 2%;
 border-radius: 10%;
 background-color: orangered;
 text-decoration: none;
 color: white;
 }
 .t2{
-    padding: 3%;
+    padding: 2%;
     border-radius: 10%;
     background-color: orangered;
     text-decoration: none;
     color: white;
 }
 .t3{
-    padding: 3%;
-    border-radius: 10%;
+    padding: 2%;
+    border-radius: 5%;
     background-color: orangered;
     text-decoration: none;
     color: white;
 }
 .remarks{
     display: block;
-    gap: 1%;
     margin-top: 2%;
     background-color: rgb(238, 250, 250);
+    width: 100%;
+    height: 40%;
 } 
 
 
-     @media(max-width:400px) {
+ @media only screen and(max-width:800px){
+  
+}
+.forms{
+    margin-left: 30%;
+}
 
-    
-    }
+.q1{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 2%;
+}
+.q2{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 2%;
 
-
+}
+.q3{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 5%;
+}
+.q4{
+    width: 20%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 2%;
+}
+.q5{
+    width: 20%;
+    height: 10%;
+    padding: 3%;
+    border-radius: 2%;
+    padding-bottom: 10%;
+}
     
 
    
