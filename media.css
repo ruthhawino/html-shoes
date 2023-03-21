@@ -1,0 +1,45 @@
+@media only screen and(max-width:850px) {
+    .nav3{
+        gap: 1%;
+    }
+    .indi{
+        width: 5%;
+        height: 2%;
+    }
+    .go{
+        font-size: xx-small;
+    }
+    .go2{
+        font-size:xx-small;
+    }
+    .general{
+        max-width: 20%;
+        min-width: fit-content;
+        gap: 1%;
+        display: grid (2fr);
+        font-size: smaller;
+    }
+    .g2{
+        display: grid(2fr);
+        max-width: fit-content;
+        min-width: fit-content;
+        font-size: smaller;
+
+    }
+    .subscribe{
+        padding: 2%;
+        margin-left: 2%;
+    }
+    .sole{
+        width: 20%;
+        height: 10%;
+    }
+    .white{
+        font-size: smaller;
+        float:left;
+    }
+    .insigths{
+        font-size: x-small;
+    }
+
+}
