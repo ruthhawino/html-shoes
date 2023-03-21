@@ -35,6 +35,9 @@
     display: inline-block;
 
 }
+.xx{
+    gap: 1em;
+}
 .nav ul li{
     display: inline-block;
     text-decoration: solid;
@@ -42,12 +45,14 @@
 }
 .nav3{
     display:inline-block;
+    gap: 2%;
 }
 .nav3 ul li{
     text-decoration: none;
     color: grey;
     font-size: medium;
     list-style: none;
+    gap: 2em;
 }
 .nav2{
     color:orangered;
@@ -797,6 +802,11 @@ color: white;
     background-color: orangered;
     text-decoration: none;
     color: white;
+}
+.xxx{
+    margin-left: 120%;
+    display: flex;
+    gap: 2em;
 }
 .t3{
     padding: 2%;
