@@ -47,7 +47,12 @@
     .sole {
         width: 80%;
         height: 60%;
+        display: block;
     }
+    .main3{
+        display: flex;
+    }
+    
     .nav3{
         font-size: smaller;
         overflow: hidden;
